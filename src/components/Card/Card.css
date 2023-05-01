@@ -113,4 +113,7 @@
         left:15px;
         width:80%;
     }
+    .chartContainer{
+        width:100%;
+    }
 }
