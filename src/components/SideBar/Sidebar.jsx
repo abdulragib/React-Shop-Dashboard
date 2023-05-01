@@ -12,10 +12,12 @@ const Sidebar = () => {
   const [expanded, setExpanded]=useState(true);
 
   const sidebarVariants={
+    // expanded
     true:{
       left:'0',
     },
 
+    // collapsed
     false:{
       left:'-60%'
     },
@@ -28,7 +30,7 @@ const Sidebar = () => {
         <UilBars/>
     </div>
 
-    <motion.div className="Sidebar" variants={sidebarVariants} animate={window.innerWidth<=768?`${expanded}`:''}>
+    <motion.div className="Sidebar" variants={sidebarVariants}  animate={window.innerWidth<=768?`${expanded}`:''}>
       {/* logo */}
       <div className="logo">
         <img src={Logo} alt="" />
