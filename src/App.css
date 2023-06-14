@@ -32,7 +32,7 @@
   width:97%;
   border-radius:2rem;
   background-color:var(--glass);
-  overflow:hidden;
+  overflow-x:hidden;
   grid-template-columns: 11rem auto 20rem;
   gap:10px;
 }
