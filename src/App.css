@@ -53,3 +53,18 @@
     display:none;
   }
 }
+
+::-webkit-scrollbar {
+  width: 0.3rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--gray);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--black);
+  border-radius:3rem;
+}
